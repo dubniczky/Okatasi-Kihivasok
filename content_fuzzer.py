@@ -3,7 +3,7 @@ from wonderwords import RandomWord
 import random
 
 
-page_text = '<h2>1. Task</h2>Create a random generator function, that generates 100 random numbers between 1 and 1000, and returns their average. <h2>2. Task</h2>Create a function that takes a string as an input, and shuffles the output so that the words are in a random order. <h2>3. Task</h2>Make a function that encrypts a string with the ROT 9 cipher.'
+page_text = '<h2>1. Task</h2>Készíts egy véletlen szám generáló függvényt, amely 100 véletlen számot generál 1 és 1000 között és visszaadja az átagukat.<h2>2. Task</h2>CÍrj egy függvényt, amely féletlenszerűen megkeveri a szavakat egy szövegben, majd visszaadja a kevert szöveget.<h2>3. Task</h2>Írj egy függvényt, amely letitkosít egy szöveget a ROT9 titkosítással.'
 output_file = 'test.pdf'
 
 
@@ -55,7 +55,7 @@ html = f'''
     </style>
 </head>
 <body>
-    <h1>3. Programming Homework</h1>
+    <h1>Vizsgafeladatok</h1>
     <p>{fuzzed_text}</p>
 </body>
 </html>
